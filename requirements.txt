@@ -1,1 +1,1 @@
-streamlit
+streamlit  = version 1.37.1
