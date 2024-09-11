@@ -5,7 +5,7 @@ st.title("Sum Odd numbers")
 #st.title("_Streamlit_ is :blue[cool] :sunglasses:")
 #number = st.number_input("Insert a number")
 #number = st.number_input("Insert a number", value=None, placeholder="Type a number...")
-number = st.number_input("Insert a number", min_value=1, max_value=100, value="min") 
+number = st.number_input("Insert a number") 
 #st.write("The current number is ", number)
 i=1; n=1; s=0;
 while i<=number:
