@@ -24,7 +24,7 @@ st.write("Sum of 1st 10 odd numbers ",number*number)
 
 
 st.title("Calculate Age")
-d = st.date_input("When's your birthday")
+d = st.date_input("When's your birthday",min_value=1, max_value=100)
 st.write("Your birthday is:", d)
 def age_calculator(d):
     today = date.today()
